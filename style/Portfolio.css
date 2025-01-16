@@ -22,6 +22,36 @@
     font-size: 20px;
     border: none;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: 800;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 140px;
+    }
+    .item-descripation{
+        font-weight: 600px;
+    }
+    .about-title{
+        display: flex;
+    }
+    .about-item{
+        display: flex;
+        justify-content: space-around;
+    }
 /* ?nav style */
 nav{
     display: flex;
@@ -80,3 +110,4 @@ banner-description{
 .banner-profile-picture{
     width: 580px;
 }
+
